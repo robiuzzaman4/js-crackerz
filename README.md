@@ -1,1 +1,1 @@
-## **Js Crackerz - Problem solving with JavaScript**
+## **Js Crackerz - Hands on problem solving with JavaScript**
