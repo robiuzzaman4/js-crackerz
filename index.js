@@ -1,4 +1,6 @@
+// ========================
 // ========== 01 ==========
+// ========================
 
 // Find the First Non-Repeating Character
 // Write a function to find the first character in a string that does not repeat.
@@ -23,7 +25,9 @@ function firstNonRepeatingCharacter(string) {
 // console.log(firstNonRepeatingCharacter("aabccde")); // "b"
 // console.log(firstNonRepeatingCharacter("aabb")); // null (no non-repeating character)
 
+// ========================
 // ========== 02 ==========
+// ========================
 /**
  * 3. Capitalize the First Character of Each Word
  * Description: Write a function that capitalizes the first character of each word in a string.
@@ -48,3 +52,27 @@ function capitalizeWords(string) {
 }
 
 // console.log(capitalizeWords("ruhan    zaman"));
+
+// ========================
+// ========== 03 ==========
+// ========================
+
+// Count Occurrences of a Character
+// Write a function to count how many times a specific character appears in a string.
+
+function countCharacterOccurrences(str, char) {
+  let charCount = 0;
+
+  for (let i = 0; i < str.length; i++) {
+    const currentStr = str[i];
+    if (currentStr === char) {
+      charCount++;
+    }
+  }
+
+  return charCount;
+}
+
+// Test cases
+// console.log(countCharacterOccurrences("hello", "l")); // 2
+// console.log(countCharacterOccurrences("mississippi", "s")); // 4
