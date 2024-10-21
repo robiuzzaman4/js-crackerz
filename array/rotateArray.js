@@ -9,4 +9,4 @@ function rotateArray(arr, k) {
 
   return result;
 }
-const rotateArrayOutput = rotateArray([1, 2, 3, 4, 5], 2);
+console.log(rotateArray([1, 2, 3, 4, 5], 2));
